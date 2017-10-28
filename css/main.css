@@ -1,0 +1,32 @@
+/*Asterisco es para setear una propiedad de border o content box.*/
+body{
+	background-color: #5C4B51;
+	color:#F0EBBF;
+}
+table{
+	width:100%;
+	background-color: #8CBEB2;
+	color: #F0EBBF;
+}
+thead{
+	background-color: #B2EBBF;
+}
+tr:nth-child(odd) {
+	background-color: #8B84B2
+}
+tr:nth-child(even) {
+	background-color: #4D84B2
+}
+
+th:nth-child(odd) {
+	background-color: green;
+	color:white;
+}
+th:nth-child(even) {
+	background-color: pink;
+	color:yellow;
+}
+tr:nth-child(odd) a{
+	background-color: pink;
+	color:white;
+}
